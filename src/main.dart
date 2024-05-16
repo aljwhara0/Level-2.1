@@ -1,5 +1,7 @@
-import 'core/note_app.dart';
 
-void main(List<String> args) {
-  NoteApp().run();
+import 'models/note_model.dart';
+
+void main() {
+  final app = NoteTakingApp();
+  app.run();
 }
